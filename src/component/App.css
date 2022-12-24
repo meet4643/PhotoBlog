@@ -1,0 +1,121 @@
+.flexa{
+display: flex;
+justify-content: space-evenly;
+text-decoration: none;
+color: rgb(0, 0, 0);
+font-weight: bold;
+font-size: 20px;
+font-family: cursive;
+padding-top: 10px;
+list-style-type: none;
+}
+.flexa i {
+
+align-items: baseline;
+
+}
+.navlink{
+
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+
+
+.img{
+height: 600px;
+
+background:linear-gradient(rgba(0, 0, 0, 0.8),rgba(0,0,0,0.3)), url('backhome.jpg');
+
+width: 100%;
+}
+
+.img h1{
+
+color: rgb(255, 255, 255);
+position: absolute;
+font-family: cursive;
+top: 50%;
+left: 20%;
+}
+
+/* HOME.jsx */
+
+.browse, .browse a {
+
+border-radius: 2px;
+display: flex;
+justify-content: space-around;
+box-shadow: 3px;
+height: 500px;
+width: 300%;
+padding-bottom: 5px;
+
+}
+
+.container h4{
+
+font-family: 'Times New Roman', Times, serif;
+color:gray;
+font-size: 20px;
+font-weight: bold;
+
+}
+.writing{
+
+border-radius: 2px;
+display: block;
+margin: 0% 25% 0% 25%;
+word-spacing: 10px;
+line-height: 50px;
+padding-bottom: 5px;
+padding-top: 5px;
+}
+
+/* footer.jsx */
+.footer, .footer i{
+display: flex;
+justify-content: center;
+padding: 20px;
+
+
+
+}
+
+
+
+
+
+
+/* gallery */
+
+.gallery, img{ 
+
+border-radius: 6px;
+display: grid;
+grid-template-columns: auto auto auto;
+margin: 15px;
+max-width: 100%;
+
+}
+/* about */
+
+.about{
+    display: flex;
+justify-content: center;
+margin: 0% 20% 0% 20%;
+}
+.about div{
+
+margin: 5px;
+
+
+}
+
+.contect{
+
+width: 500px;
+margin: 0;
+padding: 0;
+}
